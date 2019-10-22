@@ -5,7 +5,7 @@ public class PassingExam {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of students: ");
         int size = sc.nextInt();
-        if (size >= 30) {
+        if (size > 30) {
             System.out.println("Size shouldn't go over 30");
         } else {
             int[] scores = new int[size];
